@@ -9,12 +9,14 @@ header {
 }
 
 body {
+    line-height: 2;
     margin: 0;
-    background-color: rgb(166, 255, 0);
+    background-color: rgb(0, 247, 255);
+    font-size: 20px;
 }
 
 nav>ul {
-    background-color: #1a3861;
+    background-color: #613c1a;
     font-family: 'EB Garamond,'serif;
     font-weight: bold;
     font-size: 1.15em;
@@ -37,4 +39,16 @@ nav>ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+.projects {
+    padding: 20px;
 }
