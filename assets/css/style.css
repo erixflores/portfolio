@@ -7,3 +7,34 @@ header {
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    background-color: rgb(166, 255, 0);
+}
+
+nav>ul {
+    background-color: #1a3861;
+    font-family: 'EB Garamond,'serif;
+    font-weight: bold;
+    font-size: 1.15em;
+    justify-content: space-around;
+    display: flex;
+    padding: 0.5em 0.7em 0.1em 50em;
+    margin: 0;
+}
+
+:root {
+    --color-off-white: #fff6f6;
+    --color-aluminum: #c4c4c4; 
+    --color-charcoal: #494646;
+    --color-black: #1f1919;
+    --color-navy: #6385b1;
+    --color-deep-water: #1a3861;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
